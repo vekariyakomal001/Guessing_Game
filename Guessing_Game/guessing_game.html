@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/guessing_game.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascript/guessing_game.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_container">
+            <button type="button" class="btn_again" onclick="location.reload();">Again!</button>
+            <h2><span class="prev">&#10094;</span> Between 1 and 20 <span class="next">&#10095;</span></h2>
+        </div>
+        <div class="title">
+            <p>Guess My Number !</p>
+        </div>
+    </div>
+    <hr>
+    <div class="body_section">
+        <div class="symbol_box"><span class="symbol">&#10068;</span></div>
+        <div class="input_section">
+            <div class="user_input"><input type="number" id="number" class="number"></div>
+            <span class="error_msg_icon" id="error_msg_icon">&#9940;&nbsp;&nbsp;<span id="error_msg"
+                    class="error_msg">No Number !</span></span>
+        </div>
+        <div class="score_section">
+            <button type="button" class="btn_check" id="btn_check" onclick="checkValue()">Check !</button>
+            <div>
+                <br><span class="score_msg">&#128175;&nbsp;&nbsp;Score : <span id="score">20</span></span><br><br>
+                <span class="score_msg">&#127941;&nbsp;&nbsp;Highscore : <span id="high_score">20</span></span>
+            </div>
+            <div class="random_number" id="random_number" value="" style="display: none;"></div>
+        </div>
+    </div>
+</body>
+
+</html>

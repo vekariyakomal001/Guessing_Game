@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+html,
+body{
+    margin: 0 auto;
+    height: 100%;
+    font-family: fantasy;
+    background-color: black;
+    color: white;
+}
+
+.header{
+    padding: 1em 0em 0em 1em;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: white;
+    width: 5em;
+    height: 2em;
+    font-size: xx-large;
+    color: black;
+}
+
+.header_container h2{
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
+.title{
+    margin-bottom: 0.5em;
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+hr {
+    border-top: 5px solid;
+}
+
+.symbol_box {
+    height: 5em;
+    width: 5em;
+    color: black;
+    margin: -2em 0em 0em 25em;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.symbol{
+    font-size:50px;
+    margin: 0em 0em 0em 0.1em;
+}
+
+.input_section, .score_section{
+    display: flex;
+    justify-content: start;
+}
+
+.number{
+    height: 3em;
+    width: 6em;
+    margin: 1em 0em 0em 10.5em;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.error_msg_icon{
+    font-size:20px;
+    margin: 2em 0em 0em 6em;
+    letter-spacing: 0.1em;
+}
+
+.score_msg{
+    font-size:20px;
+    margin: 5em 0em 0em 7em;
+    letter-spacing: 0.1em;
+}
+
+.btn_check{
+    margin: 1em 0em 0em 11em;
+}
+
+.random_number{
+    color : white;
+}
